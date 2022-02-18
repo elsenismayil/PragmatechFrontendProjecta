@@ -1,0 +1,35 @@
+.container{
+    width: 1500px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+}
+.center{
+    justify-content: center;
+}
+.flex-end{
+    justify-content: flex-end;
+}
+.align-center{
+    align-items: center;
+}
+.orange{
+    color: #ffaa00;
+}
+.gray{
+    color: #888888;
+}
+.border-50{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.bottom{
+    bottom: auto;
+}
+.op-0{
+    opacity: 0;
+}

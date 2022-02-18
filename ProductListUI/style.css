@@ -1,0 +1,113 @@
+.item{
+    padding: 12px;
+    transition: all .3s ease;
+}
+.item .s-image ,.f-image{
+    cursor: pointer;
+}
+.item:hover{
+    box-shadow: 0 0 8px rgb(41 35 35 / 16%);
+
+}
+.item:hover .add{
+    opacity: 1;
+}
+.item:hover .iconic-area .s-2{
+   opacity: 1;
+}
+
+.add{
+    width: 100%;
+    height: 42px;
+     margin-top: 5px;
+     background-color: #986d6d;
+     opacity: 0;
+     transition: all.3s;
+     cursor: pointer;
+}
+.add:hover{
+    background-color: black;
+    color: white;
+}
+
+.star-1 i{
+    font-size: 11px;
+   margin: 7px 0px;
+}
+.producd{
+    color: grey;
+    text-decoration: none;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    line-height: 26px;
+}
+.producd:hover{
+    color: #986d6d;
+}
+.coast{
+    color: class="coast";
+    font-size: 18px;
+    letter-spacing: 0.6px;
+    font-weight: 500;
+    font-style: inherit;
+    line-height: 30px;
+}
+.f-image , .f-image img{
+    width: 327px;
+    height: 420px;
+   
+}
+.s-image , .s-image img{
+    width: 327px;
+    height: 420px;
+    position: absolute;
+    top: 7px;
+    opacity: 0;
+    transition: all .3s ease;
+}
+.item:hover .s-image, .s-image img{
+    opacity: 1;
+}
+.iconic-area{
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 50;
+    margin-left: 287px;
+    margin-top: 5px;
+}
+.iconic-area i{
+    font-size: 13px;
+    margin-right: 10px;
+}
+.i-border{
+   display: block;
+   border-radius: 55%;
+   margin-bottom: 5px;
+   width: 32px;
+   height: 32px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #ffffff;
+}
+.i-border i{
+    font-size: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.i-border{
+    transition: all .8s ease;
+}
+.i-border:hover{
+    background-color: #986d6d;
+}
+.m-l{
+    margin-left: 10px;
+}
+del{
+    color: #777777;
+}
