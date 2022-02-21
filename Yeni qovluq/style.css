@@ -1,15 +1,65 @@
 .container{
-    width: 1500px;
+    width: 1300px;
     border: 1px solid red;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin: 0px auto;
     
 }
 .item{
     width: 340px;
-    height: 391px;
     border: 1px solid black;
     padding: 10px;
-    
+   
+    justify-content: center;
+   
+}
+.icon-area{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.bor{
+   border: 3px solid orange;
+    width: 125px;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    color: orange;
+    border-radius: 50%;
+   
+  
+}
+.bor i{
+    font-size: 52px;
+}
+h2{
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    color: black;
+    padding: 13px 0px;
+    font-family: 'Droid Sans',sans-serif;
+    font-weight: 700;
+} .txt{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-family: Muli,sans-serif;
+    font-size: 14px;
+}
+.button-area{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+button{
+    background-color: orange;
+    margin: 20px 0px;
+    padding: 14px 35px;
 }
