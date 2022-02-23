@@ -1,0 +1,135 @@
+.container{
+    width: 1300px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+    
+}
+.item{
+    width: 340px;
+    height: 381px;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 1px 2px 10px rgb(0 0 0 / 18%);
+    margin-top: 100px;
+   padding: 10px 0px;
+   transition: all .8 s ease;
+   position: static;
+   z-index: 1500;
+   
+}
+.item::after:hover .ex{
+    animation: sec;
+}
+
+.icon-area{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+.bor{
+   border: 1px solid #e5e5e5;
+    box-shadow: 5px 5px 3px #ddd;
+    width: 125px;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    color: #ff4343;
+    border-radius: 50%;
+    transition: all .8s ease;
+  
+}
+.item:hover .bor{
+    box-shadow: -5px 7px 3px #ddd;
+}
+
+.bor i{
+    font-size: 52px;
+}
+
+
+
+
+
+.head{
+    width: 339px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    overflow: hidden;
+    position: absolute;
+    box-sizing: border-box;
+    transition: all .8s ease;
+    background-color: #edf4f3;
+}
+.item:hover .ex{
+    animation: ani;
+    animation-duration: .5s;
+}
+.item:hover .ex{
+    left: 0px;
+}
+.item:hover h2{
+    color: white;
+}
+
+.ex{
+    width: 339px;
+    height: 57px;
+   position: absolute;
+   background-color: #ff4343;
+   left: 340px;
+    transition: all .5s ease;
+}
+h2{
+    font-family: 'Droid Sans',sans-serif;
+    position: relative;
+    font-weight: 700;
+    font-size: 30px;
+}
+@keyframes ani{
+    0%{left: 340px;}
+    100%{left: 0px;}
+
+}
+@keyframes sec{
+    0%{left: 0px;}
+    100%{left: 340px;}
+}
+
+
+.txt{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Muli,sans-serif;
+    font-size: 14px;
+    margin-top: 99px;
+   
+}
+
+
+.button-area{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   
+}
+button{
+    background-color: #ff4343;
+    margin: 20px 0px;
+    padding: 14px 35px;
+    border: #ff4343;
+    margin-bottom: 20px;
+
+}
+
+
+
+
