@@ -1,0 +1,74 @@
+.container{
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+.item{
+width: 340px;
+height: 320px;
+}
+.item:hover i{
+    animation: ani;
+    animation-duration: .2s;
+
+}
+.item:hover i{
+left: -76px;
+}
+.item::after i :hover{
+    animation: ani-2;
+    animation-duration: .3s;
+}
+.header{
+    width: 340px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Droid Sans',sans-serif;
+    font-weight: 700;
+    position: absolute;
+}
+i{
+    font-size: 140px;
+    color: #8aa9ff;
+    position: relative;
+    left: 81px;
+    transition: all .5s ease;
+}
+p{
+    text-align: center;
+    padding: 20px 0px;
+    color: #919191;
+    font-family: Muli,sans-serif;
+    line-height: 1.42857143;
+    font-size: 15px;
+}
+.button-area{
+    width: 340px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    padding: 14px 30px;
+    margin-top: 20px;
+    background-color: #2e4b9b;
+    color: white;
+    transition: all .5s ease;
+}
+button:hover{
+    color: #8aa9ff;
+}
+@keyframes ani{
+    0%{left: 81px;}
+    100%{left: -76px;}
+}
+@keyframes ani-2{
+    0%{left:-76px ;}
+    100%{left: 81px;}
+}
