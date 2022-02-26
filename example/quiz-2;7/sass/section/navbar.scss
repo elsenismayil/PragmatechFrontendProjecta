@@ -1,0 +1,27 @@
+.navbar_brand_logo{
+    // border: $space-x/5 solid $border-color;
+}
+.navbar_brand_nav{
+    // border: $space-x/5 solid $border-color;
+    @extend .flex;
+    @extend .align-center;
+     ul{
+         @extend .flex;
+         @extend .align-center;
+           li{
+               margin: 0px $space-2x;
+           }
+     }
+}
+    .navbar-user{
+        // border: $space-x/5 solid $border-color;
+        @extend .flex;
+        @extend .align-center;
+           button{
+               background-color: $main-color;
+               color: $sec-color;
+               padding:$space-2x $space-4x ;
+               margin: 0px $space-x;
+               border-radius: $space-4x;
+           }
+    }
