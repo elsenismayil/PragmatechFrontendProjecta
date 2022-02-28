@@ -1,0 +1,38 @@
+.container {
+  width: 1500px;
+  border: 1px solid red;
+  min-height: 50px;
+  margin: 0px auto;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.spaca-bet {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.js-cen {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.al-cen {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.border-50 {
+  border-radius: 50%;
+}

@@ -1,0 +1,21 @@
+.header{
+   width: $space-6x*50;
+   height: $space-4x*5;
+   border: 1px solid green;
+   @extend .flex;
+   @extend .spaca-bet;
+   @extend .al-cen;
+     .surcle{
+        width: $space-5x*2 - 2px;
+        height: $space-5x*2 - 2px;
+        @extend .border-50;
+        background-color: $lB-color;
+     }
+     .name{
+       p{
+          font-size: $space-4x + 4px;
+          font-weight: $min-weigh*7;
+
+       }
+     }
+}
