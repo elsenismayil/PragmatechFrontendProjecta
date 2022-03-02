@@ -1,14 +1,14 @@
-.container {
-  width: 1500px;
-}
-
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.spaca-bet {
+.outo-cen {
+  margin: 0px auto;
+}
+
+.space-bet {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -20,12 +20,14 @@
           justify-content: center;
 }
 
-.al-cen {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.text-cen {
+  text-align: center;
 }
 
-.text-align {
-  text-align: center;
+.font-fam {
+  font-family: sans-serif;
+}
+
+.f-sz {
+  font-size: large;
 }

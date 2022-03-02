@@ -1,0 +1,74 @@
+.flex, .stat-container, .stat-container .stat-item li, .stat-container .stat-item li p, .stat-container .stat-item li p h1, .bor-tz, .nav, .extra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.outo-cen, .stat-container {
+  margin: 0px auto;
+}
+
+.space-bet, .stat-container {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.js-cen, .stat-container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.text-cen {
+  text-align: center;
+}
+
+.font-fam, .stat-container .stat-item, .bor-tz, .nav, .extra {
+  font-family: sans-serif;
+}
+
+.f-sz, .stat-container .stat-item, .stat-container .stat-item li, .stat-container .stat-item li p h1 {
+  font-size: large;
+}
+
+.stat-container {
+  border: 1px solid #00427A;
+  width: 1140px;
+  padding: 30px 0px;
+  background: gray;
+}
+
+.stat-container .stat-item {
+  border: 1px solid #152ea0;
+  width: 275px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.stat-container .stat-item li {
+  width: 15px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.stat-container .stat-item li p {
+  width: 15px;
+  background-color: #00427A;
+}
+
+.stat-container .stat-item li p h1 {
+  background-color: gray;
+}
+
+.bor-tz {
+  width: 1500px;
+}
+
+.nav {
+  width: 1500px;
+}
+
+.extra {
+  width: 1500px;
+}

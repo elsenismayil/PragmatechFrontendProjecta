@@ -1,0 +1,5 @@
+.bor-tz{
+    @extend .flex;
+    width:$container-width;
+    @extend .font-fam;
+}

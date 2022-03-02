@@ -1,0 +1,37 @@
+.stat-container{
+border: 1px solid $main-color;
+width: $space-4x*57;
+@extend .outo-cen;
+padding: $space-3x*2 0px;
+@extend .flex;
+@extend .js-cen;
+@extend .space-bet;
+background:$sec-color ;
+.stat-item{
+    border: 1px solid $s-color;
+    width: $space-4x*57/4 -$space-2x;
+    padding: $space-4x;
+    margin: $space-2x;
+    @extend .font-fam;
+    @extend .f-sz;
+        li{
+            width: $space-3x;
+            font-size: $space-3x;
+            @extend .f-sz;
+            font-weight: $main-weidth*5;
+            @extend .flex;
+               p{
+                 width: $space-3x;
+                 @extend .flex;
+                 background-color: $main-color;
+                   h1{
+                       @extend .flex;
+                       background-color: $sec-color;
+                       @extend .f-sz;
+                    
+                   }
+               }
+        }
+  
+}
+}
