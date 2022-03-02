@@ -1,0 +1,29 @@
+#buttons{
+    margin-top: $space-6x*2 + 10px;
+}
+.buttons-con{
+    width: $space-2x*110;
+    min-height: $space-6x*10;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+      .butt{
+          width: $space-2x*15.8;
+          height: $space-2x*4.4;
+          border-radius: $space-2x;
+          border: 1px solid black;
+          transition: all .4s ease;
+      }
+     .f-but:hover{
+         background-color: $main-color;
+     }
+     .s-but:hover{
+         background-color:$lB-color ;
+     }
+     .tr-but:hover{
+         background-color: $e-color;
+     }
+     .d-but:hover{
+         background-color: $lk-color;
+     }
+
+}

@@ -1,0 +1,294 @@
+.container {
+  width: 1500px;
+  min-height: 50px;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+
+.column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex, .tgr-text-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.spaca-bet {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.js-cen {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.al-cen {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.border-50 {
+  border-radius: 50%;
+}
+
+.wid-100 {
+  width: 100%;
+}
+
+.block {
+  display: block;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.name-head p {
+  font-weight: 700;
+  font-size: 22px;
+  color: #373F68;
+  font-style: normal;
+  letter-spacing: 2px;
+  line-height: 34px;
+}
+
+.colors-area {
+  width: 1500px;
+  min-height: 600px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+}
+
+.colors-area .item {
+  width: 255px;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+.colors-area .item .colors-item {
+  width: 255px;
+  height: 109px;
+  border-radius: 10px;
+}
+
+.a-color {
+  background-color: #AD1FEA;
+}
+
+.b-color {
+  background-color: #4661E6;
+}
+
+.white-color {
+  background-color: gray;
+}
+
+.c-color {
+  background-color: #060b25;
+}
+
+.d-color {
+  background-color: #F2F4FF;
+}
+
+.e-color {
+  background-color: #373F68;
+}
+
+.f-color {
+  background-color: #647196;
+}
+
+.g-color {
+  background-color: #F49F85;
+}
+
+.h-color {
+  background-color: #62BCFA;
+}
+
+.txt-color {
+  background-color: #3A4374;
+}
+
+.af-color {
+  background-color: #D73737;
+}
+
+.rgb-1 {
+  background-color: 173, 31, 234;
+}
+
+.a {
+  background-color: #ad1fea;
+}
+
+.t-gr {
+  width: 1110px;
+  background-color: #F7F8FD;
+  height: 254px;
+}
+
+.tgr-text-area {
+  width: 1500px;
+  min-height: 400px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tgr-text-area .left-text {
+  width: 700px;
+  min-height: 400px;
+}
+
+.tgr-text-area .left-text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #647196;
+}
+
+.tgr-text-area .left-text h4 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 35px;
+  color: #3A4374;
+}
+
+.tgr-text-area .right-text {
+  width: 700px;
+  min-height: 400px;
+}
+
+.tgr-text-area .right-text h6 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #647196;
+  margin-top: 10px;
+}
+
+.tgr-text-area .right-text p {
+  margin-top: 10px;
+  font-weight: 400;
+  color: #3A4374;
+  font-size: 16px;
+}
+
+#buttons {
+  margin-top: 70px;
+}
+
+.buttons-con {
+  width: 1100px;
+  min-height: 300px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+}
+
+.buttons-con .butt {
+  width: 158px;
+  height: 44px;
+  border-radius: 10px;
+  border: 1px solid black;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.buttons-con .f-but:hover {
+  background-color: #AD1FEA;
+}
+
+.buttons-con .s-but:hover {
+  background-color: #7C91F9;
+}
+
+.buttons-con .tr-but:hover {
+  background-color: #656EA3;
+}
+
+.buttons-con .d-but:hover {
+  background-color: #E98888;
+}
