@@ -4,6 +4,10 @@
     margin: 0px auto;
     display: flex;
     justify-content: center;
+    margin-top: 30px;
+}
+.column{
+    flex-direction: column;
 }
 .flex{
     display: flex;
@@ -14,6 +18,9 @@
 .js-cen{
     justify-content: center;
 }
+.end{
+    justify-content: flex-end;
+}
 .al-cen{
 align-items: center;
 }
@@ -22,6 +29,12 @@ align-items: center;
 }
 .border-50{
     border-radius: 50%;
+}
+.wid-100{
+    width: 100%;
+}
+.block{
+    display: block;
 }
 
 // colors
