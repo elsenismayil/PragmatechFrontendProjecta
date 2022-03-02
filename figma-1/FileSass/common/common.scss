@@ -1,8 +1,9 @@
 .container{
-   width: 1500px;
-   border:1px solid red;
-   min-height: 50px;
-   margin: 0px auto;
+    width: 1500px;
+    min-height: 50px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
 }
 .flex{
     display: flex;
@@ -22,3 +23,5 @@ align-items: center;
 .border-50{
     border-radius: 50%;
 }
+
+// colors
