@@ -1,0 +1,299 @@
+.mar-auto, .container {
+  margin: 0px auto;
+}
+
+.column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex, .row, .solita-head, .solita-head .area-112, .solita-head .area-tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.spaca-betw {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.js-cen {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.al-cen, .solita-head .area-tags {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.border-50 {
+  border-radius: 50%;
+}
+
+.wid-100 {
+  width: 100%;
+}
+
+.block {
+  display: block;
+}
+
+.container {
+  width: 1500px;
+}
+
+body {
+  background-color: #F2F4FF;
+}
+
+.row {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.col-1 {
+  width: calc((100%/12)*1);
+}
+
+.col-2 {
+  width: calc((100%/12)*2);
+}
+
+.col-3 {
+  width: calc((100%/12)*3);
+}
+
+.col-4 {
+  width: calc((100%/12)*4);
+}
+
+.col-5 {
+  width: calc((100%/12)*5);
+}
+
+.col-6 {
+  width: calc((100%/12)*6);
+}
+
+.col-7 {
+  width: calc((100%/12)*7);
+}
+
+.col-8 {
+  width: calc((100%/12)*8);
+}
+
+.col-9 {
+  width: calc((100%/12)*9);
+}
+
+.col-10 {
+  width: calc((100%/12)*10);
+}
+
+.col-11 {
+  width: calc((100%/12)*11);
+}
+
+.col-12 {
+  width: calc((100%/12)*12);
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.header {
+  width: 100%;
+  height: 72px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #373F68;
+  border-radius: 10px;
+}
+
+.header .header-element-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px;
+}
+
+.header .header-element-1 p, .header .header-element-1 h4, .header .header-element-1 i {
+  color: #ffff;
+  margin-left: 20px;
+}
+
+.header .header-element-1 h4 {
+  font-size: 20px;
+  line-height: 25px;
+  font-style: normal;
+}
+
+.header .header-element-1 p {
+  font-size: 15px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 21px;
+}
+
+.header .header-element-2 {
+  margin-right: 20px;
+}
+
+.header .header-element-2 .element-2 {
+  width: 158px;
+  height: 44px;
+  background-color: #AD1FEA;
+  border-radius: 10px;
+}
+
+#solition {
+  margin-top: 25px;
+}
+
+.solita-head {
+  width: 100%;
+  height: 151px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #ffff;
+  border-radius: 10px;
+}
+
+.solita-head .area-112 {
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.solita-head .area-112 button {
+  width: 40px;
+  height: 55px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.solita-head .area-tags {
+  height: 100%;
+  width: 400px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.solita-head .area-tags h4 {
+  color: #3A4374;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.solita-head .area-tags p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #647196;
+}
+
+.solita-head .area-tags button {
+  padding: 5px 10px;
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #4661E6;
+  border-radius: 10px;
+}
+
+.solita-head .commit {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 20px;
+}
+
+.solita-head .commit i {
+  font-size: 20px;
+  margin-right: 10px;
+}

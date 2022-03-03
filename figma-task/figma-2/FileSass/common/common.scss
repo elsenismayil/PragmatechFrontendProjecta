@@ -1,0 +1,42 @@
+$container-width:1500px;
+.mar-auto{
+    margin: 0px auto;
+}
+.column{
+    flex-direction: column;
+}
+.flex{
+    display: flex;
+}
+.spaca-betw{
+    justify-content: space-between;
+}
+.js-cen{
+    justify-content: center;
+}
+.end{
+    justify-content: flex-end;
+}
+.al-cen{
+align-items: center;
+}
+.text-align{
+    text-align: center;
+}
+.border-50{
+    border-radius: 50%;
+}
+.wid-100{
+    width: 100%;
+}
+.block{
+    display: block;
+}
+
+.container{
+    width: $container-width;
+    @extend .mar-auto;
+}
+body{
+    background-color:#F2F4FF;
+}

@@ -1,0 +1,59 @@
+#solition{
+    margin-top: $space-5x;
+}
+.solita-head{
+    width: 100%;
+    height:$space-2x*15.1;
+    @extend .flex;
+    justify-content: space-between;
+    background-color: $white-color;
+    border-radius: $space-2x;
+      .area-112{
+         height: 100%;
+          @extend .flex;
+          align-items: center;
+           button{
+            width: $space-2x*4;
+            height: $space-2x*5.5;
+            border-radius: $space-2x;
+            margin-left: $space-4x;
+           }
+      }
+      .area-tags{
+          height: 100%;
+        width: $space-4x*20;
+          @extend .flex;
+          justify-content: flex-start;
+          @extend .al-cen;
+          h4{
+              color:$txt-color ;
+              font-weight: $min-weigh*7;
+              font-size: $space-4x;
+              line-height: $space-5x;
+          }
+          p{
+              font-weight: $min-weigh*4;
+              font-size: $space-3x;
+              line-height: $space-4x;
+              color: $f-color;
+          }
+          button{
+              padding: $space-x $space-2x;
+              font-size: $space-3x;
+              line-height: $space-5x + 3px;
+              font-weight: $min-weigh*6;
+              color: $three-color;
+              border-radius: $space-2x;
+          }
+      }
+      .commit{
+          height: 100%;
+          display: flex;
+          align-items: center;
+          margin-right: $space-4x;
+           i{
+              font-size: $space-4x;
+              margin-right: $space-2x;
+           }
+      }
+}
