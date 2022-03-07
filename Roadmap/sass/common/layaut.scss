@@ -1,0 +1,63 @@
+.row{
+    @extend .flex;
+    @extend .between;
+}
+@for $i from 1 to 13 {
+    .col-#{$i}{
+        width: calc((100%/12)* #{$i});
+    }
+}
+
+@for $i from 1 to 11{
+    .pad-#{$i}{
+        padding: calc(5px*#{$i});
+    }
+}
+
+@for $i from 1 to 11 {
+    .pad-top-#{$i}{
+        padding-top: calc(5px*#{$i});
+    }
+}
+@for $i from 1 to 11 {
+    .pad-bottom-#{$i}{
+        padding-bottom: calc(5px*#{$i});
+    }
+}
+
+@for $i from 1 to 11 {
+    .pad-left-#{$i}{
+        padding-left: calc(5px*#{$i});
+    }
+}
+@for $i from 1 to 11 {
+    .pad-right-#{$i}{
+        padding-right: calc(5px*#{$i});
+    }
+}
+
+@for $i from 1 to 11 {
+    .mar-#{$i}{
+        margin: calc(5px*#{$i});
+    }
+}
+@for $i from 1 to 11 {
+    .mar-top-#{$i}{
+        margin-top: calc(5px*#{$i});
+    }
+}
+@for $i from 1 to 11 {
+    .mar-bottom-#{$i}{
+        margin-bottom: calc(5px*#{$i});
+    }
+}
+@for $i from 1 to 11 {
+    .mar-left-#{$i}{
+        margin-left: calc(5px*#{$i});
+    }
+}
+@for $i from 1 to 11 {
+    .mar-right-#{$i}{
+        margin-right: calc(5px*#{$i});
+    }
+}
