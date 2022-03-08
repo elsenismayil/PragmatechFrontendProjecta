@@ -4,7 +4,7 @@
 .navbar{
     width: 100%;
     @extend .flex;
-    @extend .between;
+    justify-content: space-between;
     height:$space-2x*10 ;
     @extend .al-center;
     background-color: $secondary-color;

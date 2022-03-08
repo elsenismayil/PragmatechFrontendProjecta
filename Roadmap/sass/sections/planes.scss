@@ -10,12 +10,13 @@
         width: $space-2x*35;
         @extend .flex;
         flex-direction: column;
-        @extend .start;
+        justify-content: center;
         h4{
             font-weight: $min-weigh*7;
             color: $txt-color;
             font-size: $space-4x;
             line-height: $space-5x;
+            text-align: center;
 
         }
         p{
@@ -24,10 +25,11 @@
             line-height: $space-4x + 3px;
             color:$f-color ;
             font-style: normal;
+            text-align: center;
         }
     }
      .self-plans{
-       width: $space-2x*35;
+       width: $space-2x*30;
         @extend .flex;
         @extend .center;
        @extend .al-center;

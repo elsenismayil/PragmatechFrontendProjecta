@@ -1,6 +1,7 @@
 .row{
     @extend .flex;
     @extend .between;
+    flex-wrap: wrap;
 }
 @for $i from 1 to 13 {
     .col-#{$i}{
@@ -60,4 +61,53 @@
     .mar-right-#{$i}{
         margin-right: calc(5px*#{$i});
     }
+}
+
+@media (max-width:350px) {
+    .container{
+        width: 100%;
+    }
+    @for $i from 1 to 13 {
+        .col-xs-#{$i}{
+            width: calc((100%/12)* #{$i}) !important;
+          
+        }
+    }
+    
+}
+@media (min-width:350px) and (max-width:576px){
+    .container{
+        width: 100%;
+    }
+    @for $i from 1 to 13 {
+        .col-ms-#{$i}{
+            width: calc((100%/12)* #{$i}) !important;
+            
+        }
+    }
+    
+}
+@media (min-width:576px) and (max-width:768px){
+    .container{
+        width: 100%;
+    }
+    @for $i from 1 to 13 {
+        .col-ml-#{$i}{
+            width: calc((100%/12)* #{$i}) !important;
+        
+        }
+    }
+    
+}
+@media (min-width:768px) and (max-width:1000px){
+    .container{
+        width: 100%;
+    }
+    @for $i from 1 to 13 {
+        .col-mlg-#{$i}{
+            width: calc((100%/12)* #{$i}) !important;
+          
+        }
+    }
+    
 }
