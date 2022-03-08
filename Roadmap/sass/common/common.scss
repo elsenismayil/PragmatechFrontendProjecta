@@ -1,11 +1,20 @@
+body{
+    background-color: #f2f2f2;
+}
 .flex{
     display: flex;
 }
 .auto-center{
     margin: 0px auto;
 }
+.around{
+    justify-content: space-around;
+}
 .center{
     justify-content: center;
+}
+.start{
+    justify-content: flex-start;
 }
 .al-center{
     align-items: center;

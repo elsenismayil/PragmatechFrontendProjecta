@@ -1,4 +1,8 @@
-.flex, .row {
+body {
+  background-color: #f2f2f2;
+}
+
+.flex, .row, .navbar, .navbar .nav-element-2 .feed, .planes, .planes .plane-header, .planes .self-plans, .planes .self-plans .contain-plans .comments {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8,19 +12,30 @@
   margin: 0px auto;
 }
 
-.center {
+.around {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.center, .navbar .nav-element-2 .feed, .planes .self-plans {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-.al-center {
+.start, .planes .plane-header {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.al-center, .navbar, .navbar .nav-element-2 .feed, .planes, .planes .self-plans {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.between, .row {
+.between, .row, .navbar, .planes .self-plans .contain-plans .comments {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -535,4 +550,108 @@ table {
 
 .mar-right-10 {
   margin-right: calc(5px*10);
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  background-color: #373F68;
+  border-radius: 10px;
+}
+
+.navbar .nav-element button {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffff;
+  background-color: #373F68;
+  border: #373F68;
+}
+
+.navbar .nav-element h4 {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 35px;
+  color: #ffff;
+}
+
+.navbar .nav-element-2 .feed {
+  width: 150px;
+  height: 40px;
+  background-color: #C75AF6;
+  border: #C75AF6;
+  color: #F2F4FF;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 20px;
+  border-radius: 10px;
+}
+
+.planes {
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.planes .plane-header {
+  width: 350px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.planes .plane-header h4 {
+  font-weight: 700;
+  color: #3A4374;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.planes .plane-header p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23px;
+  color: #647196;
+  font-style: normal;
+}
+
+.planes .self-plans {
+  width: 350px;
+  background-color: white;
+}
+
+.planes .self-plans .contain-plans ul li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  font-style: normal;
+  color: #647196;
+}
+
+.planes .self-plans .contain-plans h6 {
+  color: #3A4374;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  font-style: normal;
+}
+
+.planes .self-plans .contain-plans p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  font-style: normal;
+  color: #647196;
+}
+
+.planes .self-plans .contain-plans button {
+  padding: 5px 10px;
+}
+
+.planes .self-plans .contain-plans .comments {
+  width: 100%;
 }

@@ -1,0 +1,47 @@
+#head{
+
+}
+.navbar{
+    width: 100%;
+    @extend .flex;
+    @extend .between;
+    height:$space-2x*10 ;
+    @extend .al-center;
+    background-color: $secondary-color;
+    border-radius: $space-2x;
+      .nav-element{
+          button{
+              font-weight: $min-weigh*7;
+              font-size: $space-3x;
+              line-height: $space-4x;
+              color:$ff-color ;
+              background-color: $secondary-color;
+              border: $secondary-color;
+          }
+          h4{
+              font-weight: bold;
+              font-size: $space-5x;
+              line-height: $space-6x + $space-x;
+              color: $ff-color;
+
+          }
+        }
+        .nav-element-2{
+            .feed{
+                width: $space-6x*5;
+                height: $space-6x + $space-2x;
+                background-color: $c-7-coloe;
+                border: $c-7-coloe;
+                @extend .flex;
+                @extend .al-center;
+                @extend .center;
+                color:$it-color ;
+                font-weight: $min-weigh*7;
+                font-style: normal;
+                font-size: $space-3x;
+                line-height: $space-4x;
+                border-radius: $space-2x;
+
+            }
+        }
+}

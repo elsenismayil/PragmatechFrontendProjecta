@@ -1,0 +1,71 @@
+#planes-area{
+
+}
+.planes{
+    width: 100%;
+    @extend .flex;
+    flex-direction: column;
+    @extend .al-center;
+    .plane-header{
+        width: $space-2x*35;
+        @extend .flex;
+        flex-direction: column;
+        @extend .start;
+        h4{
+            font-weight: $min-weigh*7;
+            color: $txt-color;
+            font-size: $space-4x;
+            line-height: $space-5x;
+
+        }
+        p{
+            font-size: $space-3x + 1px;
+            font-weight: $min-weigh*7;
+            line-height: $space-4x + 3px;
+            color:$f-color ;
+            font-style: normal;
+        }
+    }
+     .self-plans{
+       width: $space-2x*35;
+        @extend .flex;
+        @extend .center;
+       @extend .al-center;
+       background-color: white;
+     
+          .contain-plans{
+                  ul{
+                      li{
+                         font-weight: $min-weigh*4;
+                         font-size: $space-3x + 1px;
+                         line-height: $space-4x;
+                         font-style: normal;
+                         color: $f-color;
+                      }
+                  }
+                  h6{
+                      color: $txt-color;
+                      font-weight: $min-weigh*7;
+                      font-size: $space-3x + 3px;
+                      line-height: $space-5x;
+                      font-style: normal;
+                  }
+                  p{
+                      font-weight: $min-weigh*4;
+                      font-size: $space-3x + 1px;
+                      line-height: $space-4x + 3px;
+                      font-style: normal;
+                      color: $f-color;
+
+                  }
+                 button{
+                     padding: $space-x  $space-2x;
+                 } 
+              .comments{
+                  width: 100%;
+                  @extend .flex;
+                  @extend .between;
+              }
+          }
+     }
+}
