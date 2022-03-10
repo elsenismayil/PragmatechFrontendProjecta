@@ -29,11 +29,20 @@
         }
     }
      .self-plans{
+         overflow: hidden;
        width: $space-2x*30;
         @extend .flex;
+        flex-direction: column;
         @extend .center;
        @extend .al-center;
        background-color: white;
+         .hr-top{
+             margin-top: -$space-5x - 6px;
+             width: $space-2x*35;
+             height: $space-x + 1px;
+           
+         }
+    
      
           .contain-plans{
                   ul{
@@ -62,11 +71,19 @@
                   }
                  button{
                      padding: $space-x  $space-2x;
+                     background-color: $it-color;
+                     border: $it-color;
+                     color: $three-color;
                  } 
               .comments{
                   width: 100%;
                   @extend .flex;
                   @extend .between;
+                    .num{
+                        background-color: $it-color;
+                        border: $it-color;
+                        color: $three-color;
+                    }
               }
           }
      }
