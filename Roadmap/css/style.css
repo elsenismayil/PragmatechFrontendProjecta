@@ -737,6 +737,48 @@ table {
   }
 }
 
+@media (min-width: 1000px) {
+  .container {
+    width: 100%;
+  }
+  .col-lg-1 {
+    width: calc((100%/12)* 1) !important;
+  }
+  .col-lg-2 {
+    width: calc((100%/12)* 2) !important;
+  }
+  .col-lg-3 {
+    width: calc((100%/12)* 3) !important;
+  }
+  .col-lg-4 {
+    width: calc((100%/12)* 4) !important;
+  }
+  .col-lg-5 {
+    width: calc((100%/12)* 5) !important;
+  }
+  .col-lg-6 {
+    width: calc((100%/12)* 6) !important;
+  }
+  .col-lg-7 {
+    width: calc((100%/12)* 7) !important;
+  }
+  .col-lg-8 {
+    width: calc((100%/12)* 8) !important;
+  }
+  .col-lg-9 {
+    width: calc((100%/12)* 9) !important;
+  }
+  .col-lg-10 {
+    width: calc((100%/12)* 10) !important;
+  }
+  .col-lg-11 {
+    width: calc((100%/12)* 11) !important;
+  }
+  .col-lg-12 {
+    width: calc((100%/12)* 12) !important;
+  }
+}
+
 .navbar {
   width: 100%;
   -webkit-box-pack: justify;

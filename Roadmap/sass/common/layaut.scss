@@ -111,3 +111,15 @@
     }
     
 }
+@media (min-width:1000px){
+    .container{
+        width: 100%;
+    }
+    @for $i from 1 to 13 {
+        .col-lg-#{$i}{
+            width: calc((100%/12)* #{$i}) !important;
+          
+        }
+    }
+    
+}
