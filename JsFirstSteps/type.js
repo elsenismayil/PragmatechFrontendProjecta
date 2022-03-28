@@ -1,4 +1,4 @@
-let a = false;
+let a = 5;
 if (typeof (a) == "number") {
     console.log("daxil etdiyiniz deyer ededdir")
 } else if (typeof (a) == "string") {
