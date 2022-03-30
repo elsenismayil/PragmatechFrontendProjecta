@@ -22,7 +22,7 @@ let students = [{
     yas: 60
 }]
 
-//expected output
+//expected, output
 // Ad: Eli,Soyad:Piriyev,Yas:23
 // Ad: Ehmed,Soyad:Memmedov,Yas:34
 for(let i = 0; i<5;i++){
