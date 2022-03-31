@@ -1,3 +1,5 @@
 ### void və return function nədir?
 Void Funksiya heç bir dəyər qaytarmadıqda istifadə olunur.
 Return Funksiyanın icrasını bitirir,çağırdıqda qaytarılacaq dəyəri göstərir.
+### block scope vs function scope vs global scope fərqlər nədir?
+Block scope bəzəkli mötərizə vasitəsilə yazılır. Scope daxilində yazılan kodlar globalda oxunmur.Əgər dəyişəni var la təyin etsək globalda çağırmaq olur.
