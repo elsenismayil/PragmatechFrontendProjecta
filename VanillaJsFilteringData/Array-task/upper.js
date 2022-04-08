@@ -4,12 +4,12 @@ Although the SOLID desXXign principles were first introduced by the famous Compu
 
 function showUpper() {
   let a = sampleNews.match(/[a-zA-Z]+/g).join("");
-  let count = 0
+  
   for (i = 0; i < a.length; i++) {
     if (a[i] == a[i].toUpperCase()) {
-      count++
+     console.log(a[i])
     }
   }
-  return count
+ 
 }
-console.log(showUpper())
+showUpper()
