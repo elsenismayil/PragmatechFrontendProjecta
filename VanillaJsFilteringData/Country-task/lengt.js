@@ -84148,15 +84148,15 @@ countries = {
 function showCountry() {
     let a = Object.keys(countries)
     let b = Object.values(countries)
-    let num =[]
-    for(i in a){
+    let num = []
+    for (i in a) {
         num.push(a[i].length)
     }
     let max = Math.max(...num)
-    for(j in a){
-        if(a[j].length==max){
+    for (j in a) {
+        if (a[j].length == max) {
             console.log(b[j])
-    }
+        }
     }
 }
 showCountry()

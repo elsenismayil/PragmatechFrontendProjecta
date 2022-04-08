@@ -84145,10 +84145,10 @@ countries = {
     ]
 }
 
-function showName(){
-    for(i in countries){
-       console.log(i)
+function showName() {
+    for (i in countries) {
+        console.log(i)
     }
-   
+
 }
 showName()
