@@ -10,10 +10,11 @@ function Foo(parametr){ <br>
 Yuxarıda yazılan funksiyanı çağırmaq üçün: <br>
 Foo(parametr) sintaksisindən istifadə olunur. <br>
 ###### Funksiyalar Nə zaman Çağırılır
-Bir funksiya istifadəçi bir düyməyə basdığında,<br>
+Funksiyalar istifadəçi bir düyməyə basdığında,<br>
 Və ya birbaşa çağırılan,<br>
 Bir də avtomatik yəni özü özunə çağrılan funksiyalar olurlar.<br>
 ###### Prametr Və Arqument Anlayışı
+Funksiyanı yazarkən ötürdüyümüz dəyərlərə Arqument, Funksiyanı çağırarkən ötürdüyümüz dəyərə isə Arqument deyilir.
 
 
 
