@@ -28,8 +28,13 @@ function Topla(x, y) // Burada x və y parametr<br>
 //Funksiya çağırılır<br>
 
 Topla(7, 3); <br>
-
-
+###### Funksiyada Return Anlayışı
+Funksiyada return açar sözünün 2 vacib mənası və işi vardır:<br>
+Funksiyanın dəyərini geri qaytarır. <br>
+Funksiyanın sona çatdığını bildirir.<br>
+function foo(x,y) {<br>
+    return (x+y)<br>
+}<br>
 
 
 
