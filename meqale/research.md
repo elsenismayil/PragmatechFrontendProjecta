@@ -14,7 +14,18 @@ Funksiyalar istifadəçi bir düyməyə basdığında,<br>
 Və ya birbaşa çağırılan,<br>
 Bir də avtomatik yəni özü özunə çağrılan funksiyalar olurlar.<br>
 ###### Prametr Və Arqument Anlayışı
-Funksiyanı yazarkən ötürdüyümüz dəyərlərə Arqument, Funksiyanı çağırarkən ötürdüyümüz dəyərə isə Arqument deyilir.
+Funksiyanı yazarkən ötürdüyümüz dəyərlərə Arqument, Funksiyanı çağırarkən ötürdüyümüz dəyərə isə Arqument deyilir.<br>
+// Funksiya bildirir<br>  
+
+function Topla(x, y) // Burada x və y parametr<br>
+{<br>
+    return (x + y);<br>
+}<br>
+
+
+//Funksiya çağırılır<br>
+
+Topla(7, 3); <br>
 
 
 
