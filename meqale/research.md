@@ -6,4 +6,15 @@ Funksiyalar müxtəlif dəyişənlərdən istifadə edərək və ya bir araya g�
 function Foo(parametr){ <br>
     // Proseslərin getdiyi yer <br>
 } 
+###### Funksiya Ümumi Çağırılışı
+Yuxarıda yazılan funksiyanı çağırmaq üçün: <br>
+Foo(parametr) sintaksisindən istifadə olunur. <br>
+###### Funksiyalar Nə zaman Çağırılır
+Bir funksiya istifadəçi bir düyməyə basdığında,<br>
+Və ya birbaşa çağırılan,<br>
+Bir də avtomatik yəni özü özunə çağrılan funksiyalar.<br>
+###### Prametr Və Arqument Anlayışı
+
+
+
 
