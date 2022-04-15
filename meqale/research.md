@@ -35,6 +35,13 @@ Funksiyanın sona çatdığını bildirir.<br>
 function foo(x,y) {<br>
     return (x+y)<br>
 }<br>
+##### Funksiyaların növləri
+•	Function declaration.<br>
+•	Function expression. <br>
+•	Shorthand method definition. <br>
+•	Arrow function. <br>
+•	Generator function. <br>
+
 
 
 
