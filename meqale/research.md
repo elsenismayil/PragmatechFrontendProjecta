@@ -12,7 +12,7 @@ Foo(parametr) sintaksisindən istifadə olunur. <br>
 ###### Funksiyalar Nə zaman Çağırılır
 Bir funksiya istifadəçi bir düyməyə basdığında,<br>
 Və ya birbaşa çağırılan,<br>
-Bir də avtomatik yəni özü özunə çağrılan funksiyalar.<br>
+Bir də avtomatik yəni özü özunə çağrılan funksiyalar olurlar.<br>
 ###### Prametr Və Arqument Anlayışı
 
 
