@@ -1,0 +1,82 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.container{
+    width: 450px;
+    height: 150px;
+    margin: 0px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.light{
+    width:200px ;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.light ,.dark{
+    font-size: 50px;
+}
+.dark{
+    color: gray;
+}
+
+.animation-area{
+    width:200px ;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.animation{
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    background-color: rgb(59, 59, 178);
+    box-sizing: border-box;
+}
+.circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.dark{
+    width:200px ;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.start{
+    justify-content: flex-start;
+}
+.end{
+    justify-content: flex-end;
+}
+.circle .sun{
+    width: 130%;
+    height: 130%;
+ 
+}
+.circle .moon{
+    width: 130%;
+    height: 130%;
+    display: none;
+
+}
