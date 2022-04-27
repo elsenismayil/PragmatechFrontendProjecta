@@ -14,7 +14,7 @@ body{
 }
 .main{
     width: 600px;
-    height: 400px;
+    /* height: 400px; */
 }
 .container{
     padding: 30px;
@@ -37,6 +37,10 @@ button{
     font-size: 15px;
     padding: 5px;
     color: rgb(21, 20, 20);
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    margin-left: 15px;
 }
 button:hover{
     cursor: pointer;
@@ -46,10 +50,57 @@ button:hover{
     height: 100px;
     display: flex;
     align-items: flex-end;
+    margin-top: 45px;
 }
 input{
     width: 100%;
     box-sizing: border-box;
     height: 40px;
-    border: lightblue
+    border: lightblue;
+    border: none;
+}
+input:focus{
+    outline: none;
+}
+.circle{
+    border: 2px solid white;
+    color: white;
+    width: 20px;
+    height: 20px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    border-radius: 50%;
+    margin-left: 5px;
+    display: none;
+}
+.circle i{
+    margin-right: 2px;
+    margin-top: 3px;
+}
+.wid-111{
+    width: 111px;
+    height: 50px;
+}
+.wid-222{
+    width: 140px;
+    height: 50px;
+}
+.wid-333{
+    width: 160px;
+    height: 50px;
+}
+.wid-444{
+    width: 200px;
+    height: 50px;
+}
+.wid-555{
+    width: 240px;
+    height: 50px;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
