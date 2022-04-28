@@ -25,7 +25,7 @@ function creatButton() {
 function show(i) {
     let circle = document.querySelectorAll(".circle")
     let butx = document.querySelectorAll(".main-func")
-    if (circle[i].style.display === 'none') {
+    if (circle[i].style.display != 'block') {
         circle[i].style.display = 'block'
         butx[i].style.backgroundColor = 'lightblue'
         butx[i].style.border = 'lightblue'
@@ -34,10 +34,7 @@ function show(i) {
         circle[i].style.display = 'none'
         butx[i].style.backgroundColor = 'rgb(208, 198, 198)'
         butx[i].style.border = 'rgb(208, 198, 198)'
-
-
-
-
     }
 }
+
 
