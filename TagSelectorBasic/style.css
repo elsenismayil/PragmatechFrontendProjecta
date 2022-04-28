@@ -23,18 +23,18 @@ body{
 }
 .buttons-area{
     width: 100%;
-    height: 236px;
+    min-height: 236px;
    display: flex;
    flex-wrap: wrap;
   
 }
 button{
     margin: 15px;
-    background-color: rgb(214, 228, 232);
-   border: 2px solid lightblue;
     border-radius: 5px;
     color: white;
     font-size: 15px;
+    background-color: rgb(208, 198, 198);
+    border: rgb(208, 198, 198);
     padding: 5px;
     color: rgb(21, 20, 20);
     display: flex;
@@ -72,30 +72,16 @@ input:focus{
     align-items: center; */
     border-radius: 50%;
     margin-left: 5px;
+   
     display: none;
 }
+
 .circle i{
     margin-right: 2px;
     margin-top: 3px;
 }
 .wid-111{
-    width: 111px;
-    height: 50px;
-}
-.wid-222{
-    width: 140px;
-    height: 50px;
-}
-.wid-333{
-    width: 160px;
-    height: 50px;
-}
-.wid-444{
-    width: 200px;
-    height: 50px;
-}
-.wid-555{
-    width: 240px;
+    min-width: 111px;
     height: 50px;
 }
 
