@@ -5,8 +5,7 @@ inpt.addEventListener("keydown", function (event) {
        
         event.preventDefault();
         addComment();
-        increase();
-        // commentCount();
+      
     }
    
 });
