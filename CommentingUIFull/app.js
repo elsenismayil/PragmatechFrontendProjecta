@@ -37,7 +37,7 @@ function addComment(){
     </div>
     <div class="main-comment">
           <h1>
-              Elsen Ismayilov
+              Elşən İsmayılov
           </h1>
           <div class="text">
                   ${document.querySelector(".main-in").value}
