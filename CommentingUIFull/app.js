@@ -10,13 +10,6 @@ inpt.addEventListener("keydown", function (event) {
    
 });
 
-
-
-
-
-
-
-
 let comCount = document.querySelector(".count")
 
 
