@@ -17,12 +17,19 @@ var k = 0;
 var counter = 0
 
 
+
+
+let sec =document.querySelector(".comentary-container")
+
+
+
+
 function addComment(){
     counter++
     document.querySelector(".count").innerHTML=counter
     var a = 0
     a = ++k;
-    document.querySelector(".comentary-container").innerHTML+= `
+    sec.innerHTML+=`
     <div onclick="deleteComentary(${a-1})" class="coommentary">
     <div class="profile">
         
@@ -35,11 +42,13 @@ function addComment(){
                   ${document.querySelector(".main-in").value}
           </div>
     </div>
-</div> `
+    </div> `
+    
 }
 
 function deleteComentary(i){
-    // document.querySelector(".count").innerHTML=delcounter
+    
+    
     let comentary = document.querySelectorAll('.coommentary')
     comentary[i].style.display = 'none'
 }
