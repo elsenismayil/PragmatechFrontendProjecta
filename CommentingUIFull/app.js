@@ -47,8 +47,6 @@ function addComment(){
 }
 
 function deleteComentary(i){
-    
-    
     let comentary = document.querySelectorAll('.coommentary')
     comentary[i].style.display = 'none'
 }
